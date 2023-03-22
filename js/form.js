@@ -47,9 +47,13 @@ class Form{
            
               database.ref("/").set({
                   //defina o valor inicial para playerCount,gameState,players
-                 
+                  carsAtEnd:0,
+                  playerCount:0,
+                  gameState:0,
+                  players:{}
                 });
                 //reload() a janela
+                
                 window.location.reload();
               });
             }
